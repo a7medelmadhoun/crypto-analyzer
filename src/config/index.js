@@ -5,7 +5,7 @@ module.exports = {
     model: 'openrouter/owl-alpha'
   },
   exchange: {
-    name: 'okx',
+    name: 'kucoin',
     defaultTimeframe: '1h',
     candleLimit: 50
   },
