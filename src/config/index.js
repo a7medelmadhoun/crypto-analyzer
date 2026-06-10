@@ -5,7 +5,7 @@ module.exports = {
     model: 'openrouter/owl-alpha'
   },
   exchange: {
-    name: 'bybit',
+    name: 'okx',
     defaultTimeframe: '1h',
     candleLimit: 50
   },
