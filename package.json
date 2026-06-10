@@ -1,0 +1,15 @@
+{
+  "name": "crypto-analyzer",
+  "version": "1.0.0",
+  "description": "Crypto market analyzer using CCXT and OpenRouter AI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "ccxt": "^4.4.50",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
