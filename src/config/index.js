@@ -2,7 +2,7 @@ module.exports = {
   openrouter: {
     apiKey: process.env.OPENROUTER_API_KEY,
     baseUrl: 'https://openrouter.ai/api/v1',
-    model: 'openrouter/alpha'
+    model: 'openrouter/owl-alpha'
   },
   exchange: {
     name: 'binance',
