@@ -145,8 +145,9 @@ class TechnicalAnalysis {
     const higherTf = timeframes[0];
     const lowerTf = timeframes[timeframes.length - 1];
 
+    const allAnalyses = Object.values(results);
     const alignment = {
-      trendAlignment: results[timeframes].every(r => r.summary.trend === results[timeframes[0]].summary.trend),
+      trendAlignment: allAnalyses.every(r => r.summary.trend === allAnalyses[0].summary.trend),
       dominantTrend: results[higherTf].summary.trend,
       rsiDivergence: results[lowerTf].rsi.signal !== results[higherTf].rsi.signal,
       overallScore: this.calculateAlignmentScore(results)
